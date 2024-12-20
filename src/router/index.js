@@ -107,7 +107,7 @@ import PostularView from '@/views/web/home/PostularView.vue';
 import CalendarioView from "@/views/crud/crm/entrevistas/CalendarioView.vue";
 import EntrevistaResultado from "@/views/crud/crm/entrevistas/EntrevistaResultadoView.vue";
 const router = createRouter({
-	history: createWebHistory(import.meta.env.BASE_URL),
+	history: createWebHistory('#'),
 	routes: [
 		{
 			path: "/admin-web",
