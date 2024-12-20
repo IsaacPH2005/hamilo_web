@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  base: 'http://IsaacPH2005.github.io/hamilo_web/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
